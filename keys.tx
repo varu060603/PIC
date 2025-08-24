@@ -1,0 +1,7 @@
+gclient = OpenAI(
+    base_url="https://api.groq.com/openai/v1",
+    api_key="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"
+)
+
+
+mistral_client = Mistral(api_key='rcf0Mx1SCubHeUgdGQGaML5Jnb5ew0Au')
