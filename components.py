@@ -13,11 +13,11 @@ load_dotenv()
 
 model = 'openai/gpt-oss-120b'
 
-mistral_client = Mistral(api_key='rcf0Mx1SCubHeUgdGQGaML5Jnb5ew0Au')
+mistral_client = Mistral(api_key='paste your api key ')
 
 gclient = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key="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"
+    api_key='paste your api key '
 )
 
 mcp = FastMCP("Medical Tools")
